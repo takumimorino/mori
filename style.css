@@ -1,3 +1,153 @@
-main {
-    color: red;
+/* .container {
+    width: 700px;
+    margin: 0 auto;
 }
+#image{
+    display: flex;
+    width: 500px;
+}
+.forest1 {
+    display: block;
+    width: 250px;
+    position: absolute;
+    top: 100px;
+    left: 0%;
+}
+.forest2 {
+    display: block;
+    width: 250px;
+    margin: 0 auto ;
+    flex: 1;
+}
+.forest3 {
+    display: block;
+    width: 250px;
+    margin: 0 auto ;
+    flex: 1;
+    position: absolute;
+    top: 100px;
+    left: 80%;
+}
+
+#container {
+    margin-top: 5px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+#explain {
+    margin-bottom: 50px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
+
+a:hover {
+    color: orange;
+} */
+
+
+
+
+body {
+    margin: 0;
+    font-size: 2rem;
+    display: flex;
+    min-height: 100vh;
+}
+main {
+    width: 700px;
+    margin: 0 auto;
+    /* flex: 1; */
+}
+aside {
+    width: 25%;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 2px solid black;
+}
+a {
+    font-size: 30px;
+    text-decoration: none;
+    color: cornflowerblue;
+}
+a:hover {
+    color: rgba(255, 0, 0, 0.315);
+}
+h1 {
+    display: flex;
+    width: 100%;
+}
+p1 {
+    flex: 1;
+}
+.forest {
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+#sub {
+    height: 300px;
+    margin-top: auto;
+    color: rgba(0, 0, 0, 0.418);
+    font-size: 60%;
+}
+header {
+    font-weight: bold;
+    border-bottom: 5px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+h1 {
+    font-size: 80%;
+    font-weight: normal;
+}
+p {
+    margin-left: 20px;
+}
+p::first-letter {
+    font-size: 210%;
+}
+footer {
+    display: none;
+    font-size: 70%;
+}
+ @media screen and (max-width: 1000px) {
+     body {
+         height: 1500px;
+         flex-direction: column;
+     }
+     main {
+         width: 100%;
+         flex: 1;
+     }
+     #product {
+         border-bottom: 0;
+         border-right: 2px solid black;
+     }
+     footer {
+         display: block;
+         margin-bottom: 48px;
+     }
+     #sub {
+         display: none;
+     }
+     aside {
+         position: fixed;
+         bottom: 0;
+         width: 100%;
+     }
+     ul {
+         display: flex;
+     }
+     li {
+         flex: 1;
+     }
+ }
